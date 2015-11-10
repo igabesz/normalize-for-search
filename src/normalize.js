@@ -36,30 +36,27 @@
                 return 'i';
 
             case 'œ':
-            case 'ö':
                 return 'oe';
 
+            case 'ö':
             case 'ó':
             case 'õ':
             case 'ô':
+            case 'ő':
                 return 'o';
 
             case 'ś':
             case 'š':
                 return 's';
 
-            case 'ü':
-                return 'ue';
-
             case 'ù':
             case 'ú':
+            case 'ü':
+            case 'ű':
                 return 'u';
 
             case 'ß':
                 return 'ss';
-
-            case 'ё':
-                return 'е';
 
             default:
                 return c;
